@@ -1,0 +1,36 @@
+<rule name= '01 - If Comp &amp; TZ - Mark CM as Implemented' module= 'component' generatedByGui= 'true'>
+  <conditions>
+    <condition name='CONDITION_COMPONENT_DEFINITION' field='id' value='CD-ACCESS-TOKEN'/>
+    <condition name='CONDITION_IS_IN_TRUSTZONE' field='id' value='2ab4effa-40b7-4cd2-ba81-8247d29a6f2d_::_private-secured'/>
+  </conditions>
+  <actions>
+    <action project='CS-Default' value='PATCH-SERVER_::_Implemented_::__::_false' name='MARK_CONTROL_AS'/>
+  </actions>
+</rule>
+<rule name= 'Postgres MAI' module= 'component' generatedByGui= 'true'>
+  <conditions>
+    <condition name='CONDITION_COMPONENT_DEFINITION' field='id' value='postgresql'/>
+    <condition name='CONDITION_IS_IN_TRUSTZONE' field='id' value='2ab4effa-40b7-4cd2-ba81-8247d29a6f2d_::_private-secured'/>
+  </conditions>
+  <actions>
+    <action project='CS-Default' value='CWE-89-PREPARED_::_Implemented_::__::_false' name='MARK_CONTROL_AS'/>
+  </actions>
+</rule>
+<rule name= '01 - If Comp &amp; TZ - Mark CM as Implemented' module= 'component' generatedByGui= 'true'>
+  <conditions>
+    <condition name='CONDITION_COMPONENT_DEFINITION' field='id' value='CD-ACCESS-TOKEN'/>
+    <condition name='CONDITION_IS_IN_TRUSTZONE' field='id' value='2ab4effa-40b7-4cd2-ba81-8247d29a6f2d_::_private-secured'/>
+  </conditions>
+  <actions>
+    <action project='CS-Default' value='CSD-SESS-REAUTH_::_Implemented_::__::_false' name='MARK_CONTROL_AS'/>
+  </actions>
+</rule>
+<rule name= '2 - If Comp &amp; TZ - Mark CM as Implemented' module= 'component' generatedByGui= 'true'>
+  <conditions>
+    <condition name='CONDITION_COMPONENT_DEFINITION' field='id' value='CD-ACCESS-TOKEN'/>
+    <condition name='CONDITION_IS_IN_TRUSTZONE' field='id' value='2ab4effa-40b7-4cd2-ba81-8247d29a6f2d_::_private-secured'/>
+  </conditions>
+  <actions>
+    <action project='CS-Default' value='http-headers-authentication_::_Implemented_::__::_false' name='MARK_CONTROL_AS'/>
+  </actions>
+</rule>
